@@ -51,6 +51,11 @@ streamlit run scripts/app.py
 
 ````
 
+To push
+git add .
+git commit -m "Descripcion"
+git push -u origin master
+
 
 ## Usage
 
