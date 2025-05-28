@@ -16,7 +16,7 @@ st.title("UK Sanctions List Explorer 1")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:/Users/ethel/Downloads/uk-sanctions/output/UK_Sanctions_Processed.csv", parse_dates=["listed_on", "uk_sanctions_date", "last_updated", "DOB"], dayfirst=True)
+    df = pd.read_csv("data/UK_Sanctions_Processed.csv", parse_dates=["listed_on", "uk_sanctions_date", "last_updated", "DOB"], dayfirst=True)
     return df
 
 df = load_data()
